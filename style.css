@@ -13,17 +13,8 @@
   font-family: Inter;
 }
 
-.shape {
-  color: #fff;
-  font-family: Miama;
-  font-size: 160px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 60%;
-}
-
 .main_color {
-  color: rgb(230, 83, 60);
+  color: #e6533c;
 }
 
 .white {
@@ -35,18 +26,23 @@
 }
 
 .main {
-  width: 1440px;
+  /* width: 1440px; */
+  width: 60.9rem;
   margin: auto;
 }
 
 .mid {
-  width: 74%;
+  width: 53rem;
   margin: auto;
 }
 
 .header {
-  background-color: #2e2e2e;
-  padding: 40px 0px;
+  background-color: #1c1c1c;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.header_top {
+  padding: 2.5rem 0rem;
 }
 
 .header-mid {
@@ -56,47 +52,50 @@
 }
 
 .logo {
-  font-size: 40px;
+  font-size: 2.25rem;
+  font-style: italic;
+  font-weight: 800;
 }
 
 .menu ul {
   list-style: none;
   display: flex;
+  gap: 0.25rem;
   align-items: center;
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 39px;
-  padding: 4px;
+  padding: 0.15rem;
 }
 
 .menu ul li {
-  padding: 0px 8px;
-  margin: 0px 15px 0px;
+  padding: 0.345rem 1.292rem;
+  cursor: pointer;
 }
 
 .menu ul li a {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 0.776rem;
   letter-spacing: 1.5px;
 }
 
 .menu-1 {
   border-radius: 46px;
   background: rgb(230, 83, 60);
-  padding: 7px 0px;
 }
 
 /* Hero Section Style */
 .hero_mid {
-  width: 80%;
-  margin: auto;
   display: flex;
   align-items: center;
 }
 
 .hero_content {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.21rem;
 }
 
 .hero_img {
@@ -107,24 +106,38 @@
   position: relative;
 }
 
+.hero_img img {
+  width: 65%;
+  align-self: end;
+  padding-right: 0.25rem;
+}
+
 .hero_content h2 {
-  font-size: 78px;
+  font-size: 3.363rem;
   color: white;
 }
 
+.shape {
+  color: #fff;
+  font-family: Miama;
+  font-size: 6.885rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60%;
+}
+
 .hero_content p {
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 0.8rem;
+  line-height: 1.3rem;
   color: #8b8b8b;
-  padding: 30px 0px 45px;
 }
 
 .hero_btn a:nth-child(1) {
   background-color: tomato;
   text-decoration: none;
-  padding: 14px 40px;
+  padding: 0.69rem 1.725rem;
   border-radius: 26px;
-  font-size: 21px;
+  font-size: 0.776rem;
   color: white;
   font-weight: 600;
   margin-right: 10px;
@@ -133,81 +146,89 @@
 .hero_btn a:nth-child(2) {
   border: 1px solid white;
   text-decoration: none;
-  padding: 14px 40px;
+  padding: 0.69rem 1.725rem;
   border-radius: 26px;
-  font-size: 21px;
+  font-size: 0.776rem;
   color: white;
   font-weight: 600;
 }
 
 .tutorial {
   background-color: rgb(255 255 255 / 9%);
-  padding: 15px 30px;
+  padding: 0.8rem 1rem;
   display: flex;
-  gap: 12px;
+  gap: 0.45rem;
   align-items: center;
-  border-radius: 15px;
+  border-radius: 0.75rem;
   position: absolute;
-  bottom: 75px;
-  left: -7px;
+  bottom: 4rem;
+  left: 5rem;
 }
 
 .tutorial .circle {
-  width: 40px;
-  height: 40px;
+  width: 1.6rem;
+  height: 1.6rem;
   border-radius: 50%;
   background-color: #e6533c;
 }
 
 .tutorial_content h3 {
-  font-size: 28px;
+  font-size: 1rem;
   color: white;
-  margin-bottom: 4px;
+  margin-bottom: 0.25rem;
 }
 
 .tutorial_content p {
-  font-size: 20px;
+  font-size: 0.69rem;
   color: #8b8b8b;
 }
 
 .workout {
-  background-color: rgb(255 255 255 / 9%);
-  padding: 15px 30px;
-  border-radius: 15px;
+  width: 7.023rem;
+  height: 3.93rem;
+  display: flex;
+  gap: 0.214rem;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1.04rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.518rem;
   position: absolute;
-  top: 135px;
-  right: 30px;
+  top: 110px;
+  right: -33px;
 }
 
 .workout h3 {
-  font-size: 35px;
+  font-size: 1.725rem;
   color: white;
-  margin-bottom: 4px;
 }
 
 .workout p {
-  font-size: 16px;
+  font-size: 0.56rem;
   color: #8b8b8b;
 }
 
 /* Habit Section Styles */
+
 .habit {
   background-color: black;
-  padding: 100px 0px;
+  padding: 4.3rem 0rem;
 }
 
 .habit_header {
   text-align: center;
+  margin-bottom: 2.5rem;
 }
 
 .habit_header h3 {
-  font-size: 58px;
+  font-size: 2.08rem;
 }
 
 .habit_header p {
-  font-size: 18px;
-  line-height: 23px;
-  margin: 16px auto 40px;
+  font-size: 0.6rem;
+  line-height: 1rem;
+  margin: 0.6rem auto 0rem;
   width: 50%;
 }
 
@@ -222,76 +243,78 @@
 }
 
 .habit_item img {
+  width: 70%;
+  height: 63%;
   border-radius: 50%;
   border: 5px solid rgb(139 139 139 / 29%);
+  margin-bottom: 1.3rem;
 }
 
 .habit_item h4 {
-  margin: 22px 0px 10px;
-  font-size: 20px;
+  margin-bottom: 0.26rem;
+  font-size: 0.78rem;
 }
 
 .habit_item p {
-  width: 94%;
+  width: 80%;
   margin: auto;
-  font-size: 17px;
+  font-size: 0.6rem;
+  line-height: 1rem;
 }
 
 /* Run area styles */
 .run_area {
-  width: 80%;
-  margin: auto;
   background-color: #222222;
-  padding: 43px 0px;
-  border-radius: 30px;
+  border-radius: 0.776rem;
 }
 
 .run {
   background-color: black;
-  padding-bottom: 100px;
+  padding-bottom: 4.3rem;
 }
 
 .run_mid {
-  width: 94%;
-  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+  gap: 7.12rem;
 }
 
 .run_content {
   width: 40%;
-  padding-left: 10px;
+  padding-left: 2.33rem;
 }
 
 .run_content h3 {
-  font-size: 74px;
+  font-size: 2.62rem;
 }
 
 .run_content p {
-  font-size: 18px;
-  line-height: 27px;
-  margin: 20px 0px 30px;
+  font-size: 0.70rem;
+  line-height: 1.1rem;
+  margin: 0.61rem 0px 30px;
 }
 
 .run_content a {
   text-decoration: none;
   background-color: #e6533c;
-  padding: 18px 78px;
-  font-size: 22px;
-  border-radius: 35px;
+  padding: 0.7rem 2.93rem;
+  font-size: 0.78rem;
+  border-radius: 1.82rem;
   display: inline-block;
 }
 
 .run_img {
-  width: 40%;
-  padding-right: 10px;
-}
-
-.run_img img {
-  width: 100%;
-  height: 370px;
-  border-radius: 20px;
+  width: 16rem;
+  height: 13.5rem;
+  margin-right: 1.38rem;
+  background-image: url(./images/run.jpg);
+  border-radius: .78rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /* Trainings part Styles */
@@ -301,13 +324,13 @@
 }
 
 .training_header h3 {
-  font-size: 58px;
+  font-size: 2.62rem;
 }
 
 .training_header p {
-  font-size: 18px;
-  line-height: 23px;
-  margin: 16px 0px 40px;
+  font-size: 0.70rem;
+  line-height: 1.1rem;
+  margin: 0.61rem 0px 30px;
   width: 60%;
 }
 
@@ -783,4 +806,8 @@
   text-align: center;
   font-size: 22px;
   margin-top: 40px;
+}
+
+.display {
+  display: none;
 }
