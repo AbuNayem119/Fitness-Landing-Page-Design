@@ -230,4 +230,120 @@
   .display {
     display: none;
   }
+
+
+  
+/* Habit Section Styles */
+
+.habit {
+  background-color: black;
+  padding: 4.3rem 0rem;
+}
+
+.habit_header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.habit_header h3 {
+  font-size: 2.08rem;
+}
+
+.habit_header p {
+  font-size: 0.6rem;
+  line-height: 1rem;
+  margin: 0.6rem auto 0rem;
+  width: 50%;
+}
+
+.habit_items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.habit_item {
+  width: 80%;
+  margin: auto;
+}
+
+.habit_item img {
+  width: 70%;
+  height: 63%;
+  border-radius: 50%;
+  border: 5px solid rgb(139 139 139 / 29%);
+  margin-bottom: 1.3rem;
+}
+
+.habit_item h4 {
+  margin-bottom: 0.26rem;
+  font-size: 0.78rem;
+}
+
+.habit_item p {
+  width: 80%;
+  margin: auto;
+  font-size: 0.6rem;
+  line-height: 1rem;
+}
+
+
+/* Run area styles */
+.run_area {
+  background-color: #222222;
+  border-radius: 0.776rem;
+}
+
+.run {
+  background-color: black;
+  padding-bottom: 4.3rem;
+}
+
+.run_mid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+  gap: 7.12rem;
+}
+
+.run_content {
+  width: 100%;
+  padding-left: 2.33rem;
+}
+
+.run_content h3 {
+  font-size: 2.62rem;
+}
+
+.run_content p {
+  font-size: 0.7rem;
+  line-height: 1.1rem;
+  margin: 0.61rem 0px 30px;
+}
+
+.run_content a {
+  text-decoration: none;
+  background-color: #e6533c;
+  padding: 0.7rem 2.93rem;
+  font-size: 0.78rem;
+  border-radius: 1.82rem;
+  display: inline-block;
+}
+
+.run_img {
+  width: 16rem;
+  height: 13.5rem;
+  margin-right: 1.38rem;
+  background-image: url(./images/run.jpg);
+  border-radius: 0.78rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
 }
