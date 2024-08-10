@@ -27,7 +27,7 @@
   }
 
   .main {
-    width: 576px;
+    width: 574px;
     margin: auto;
   }
 
@@ -54,7 +54,7 @@
   }
 
   .logo {
-    font-size: 36px;
+    font-size: 47px;
     font-style: italic;
     font-weight: 800;
   }
@@ -110,13 +110,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     position: relative;
   }
 
   .hero_img img {
-    width: 65%;
-    align-self: end;
-    padding-right: 4px;
+    width: 85%;
+    align-self: center;
   }
 
   .hero_content h2 {
@@ -179,8 +179,8 @@
     align-items: center;
     border-radius: 12px;
     position: absolute;
-    bottom: 64px;
-    left: 80px;
+    bottom: 292px;
+    left: 65px;
   }
 
   .tutorial .circle {
@@ -213,8 +213,8 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 8px;
     position: absolute;
-    top: 110px;
-    right: -33px;
+    top: 82px;
+    right: 85px;
   }
 
   .workout h3 {
