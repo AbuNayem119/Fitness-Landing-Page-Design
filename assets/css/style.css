@@ -309,7 +309,8 @@
   width: 16rem;
   height: 13.5rem;
   margin-right: 1.38rem;
-  background-image: url(./images/run.jpg);
+  background-image: url(./../images/run.jpg);
+  /* background-image: url(../images/run.jpg); */
   border-radius: 0.78rem;
   background-repeat: no-repeat;
   background-position: center;
@@ -350,7 +351,7 @@
 }
 
 .gallery_1 .img_box_1 {
-  background-image: url(./images/exercise1.jpg);
+  background-image: url(../images/exercise1.jpg);
   height: 9.5rem;
   background-position: center;
   background-repeat: no-repeat;
@@ -368,7 +369,7 @@
 }
 
 .gallery_1 .img_box_2 {
-  background-image: url(./images/exercise2.png);
+  background-image: url(../images/exercise2.png);
   height: 9.5rem;
   background-position: center;
   background-repeat: no-repeat;
@@ -385,7 +386,7 @@
 }
 
 .gallery_1 .img_box_3 {
-  background-image: url(./images/exercise3.png);
+  background-image: url(../images/exercise3.png);
   height: 9.5rem;
   background-position: center;
   background-repeat: no-repeat;
@@ -402,7 +403,7 @@
 }
 
 .gallery_2 .img_box_4 {
-  background-image: url(./images/exercise4.png);
+  background-image: url(../images/exercise4.png);
   height: 9.5rem;
   background-position: center;
   background-repeat: no-repeat;
@@ -419,7 +420,7 @@
 }
 
 .gallery_2 .img_box_5 {
-  background-image: url(./images/exercise5.jpg);
+  background-image: url(../images/exercise5.jpg);
   height: 9.5rem;
   background-position: center;
   background-repeat: no-repeat;
@@ -436,7 +437,7 @@
 }
 
 .gallery_2 .img_box_6 {
-  background-image: url(./images/exercise6.jpg);
+  background-image: url(../images/exercise6.jpg);
   height: 9.5rem;
   background-position: center;
   background-repeat: no-repeat;
@@ -655,7 +656,7 @@
 }
 
 .team_row_1 .team_item_1 {
-  background-image: url(./images/trainer1.png);
+  background-image: url(../images/trainer1.png);
   height: 11.8rem;
   border-radius: 0.8rem;
   background-position: center;
@@ -667,7 +668,7 @@
 }
 
 .team_row_1 .team_item_2 {
-  background-image: url(./images/trainer2.png);
+  background-image: url(../images/trainer2.png);
   height: 11.8rem;
   border-radius: 0.8rem;
   background-position: center;
@@ -679,7 +680,7 @@
 }
 
 .team_row_1 .team_item_3 {
-  background-image: url(./images/trainer3.png);
+  background-image: url(../images/trainer3.png);
   height: 11.8rem;
   border-radius: 0.8rem;
   background-position: center;
@@ -691,7 +692,7 @@
 }
 
 .team_row_2 .team_item_4 {
-  background-image: url(./images/trainer4.png);
+  background-image: url(../images/trainer4.png);
   height: 11.8rem;
   border-radius: 0.8rem;
   background-position: center;
@@ -703,7 +704,7 @@
 }
 
 .team_row_2 .team_item_5 {
-  background-image: url(./images/trainer5.png);
+  background-image: url(../images/trainer5.png);
   height: 11.8rem;
   border-radius: 0.8rem;
   background-position: center;
@@ -715,7 +716,7 @@
 }
 
 .team_row_2 .team_item_6 {
-  background-image: url(./images/trainer6.png);
+  background-image: url(../images/trainer6.png);
   height: 11.8rem;
   border-radius: 0.8rem;
   background-position: center;
