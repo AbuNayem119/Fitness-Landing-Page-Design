@@ -1,10 +1,10 @@
 @font-face {
   font-family: Inter;
-  src: url(./fonts/Inter-VariableFont_slnt\wght.ttf);
+  src: url(./../fonts/Inter-VariableFont_slnt,wght.ttf);
 }
 @font-face {
   font-family: Miama;
-  src: url(./fonts/Miama.ttf);
+  src: url(./../fonts/Miama.ttf);
 }
 
 * {
@@ -310,7 +310,6 @@
   height: 13.5rem;
   margin-right: 1.38rem;
   background-image: url(./../images/run.jpg);
-  /* background-image: url(../images/run.jpg); */
   border-radius: 0.78rem;
   background-repeat: no-repeat;
   background-position: center;
