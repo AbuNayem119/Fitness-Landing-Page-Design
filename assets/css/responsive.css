@@ -53,14 +53,20 @@
     align-items: center;
   }
 
+  .header-mid a{
+    text-decoration: none;
+  }
+
   .logo {
     font-size: 50px;
     font-style: italic;
     font-weight: 800;
+    cursor: pointer;
   }
 
   .bar {
     width: 30px;
+    cursor: pointer;
   }
 
   .menu ul {

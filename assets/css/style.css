@@ -50,6 +50,10 @@
   align-items: center;
 }
 
+.header-mid a{
+  text-decoration: none;
+}
+
 .logo {
   font-size: 36px;
   font-style: italic;
