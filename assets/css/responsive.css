@@ -220,7 +220,7 @@
     border-radius: 8px;
     position: absolute;
     top: 55px;
-    right: 28px;
+    right: 10px;
   }
 
   .workout h3 {
@@ -583,68 +583,57 @@
     width: 85%;
   }
 
-  .calc_form input {
-    display: block;
-    padding: 0.6rem;
-    margin: 0.3rem 0rem;
+  .calc_form input,
+  .calc_form select {
+    padding: 12px;
     border-radius: 0.5rem;
     background: rgba(255, 255, 255, 0.1);
     border: none;
   }
 
-  .bmi_calc input::placeholder {
-    font-size: 0.65rem;
-    color: rgba(255, 255, 255, 0.6);
+  .calc_form select {
+    width: 50%;
   }
 
-  .calc_2 input {
-    display: block;
-    padding: 0.6rem;
-    margin: 0.3rem 0rem;
-    border-radius: 0.5rem;
-    background: rgba(255, 255, 255, 0.1);
-    border: none;
-  }
-
-  .calc_2 select {
-    color: rgba(255, 255, 255, 0.6);
-    width: calc(100% - 1.2rem);
-    padding: 0.6rem;
-    margin: 0.3rem 0rem;
-    border-radius: 0.5rem;
-    background-color: #373737;
-    border: none;
-  }
-
-  .calc_2 input::placeholder {
-    font-size: 0.65rem;
-    color: rgba(255, 255, 255, 0.6);
+  .calc_3 .factor {
+    width: 100%;
   }
 
   .calc_1,
   .calc_2 {
     display: flex;
-    gap: 15px;
+    gap: 12px;
+    justify-content: space-between;
+    margin-bottom: 12px;
   }
 
-  .calc_3 input {
-    width: calc(100% - 1.2rem);
+  .calc_1 .input_2 {
+    padding-right: 26px;
   }
 
-  .calc_1 input {
-    width: calc(100% - 1.2rem);
+  .calc_form input::placeholder {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
   }
 
-  .calc_form {
-    display: flex;
-    flex-direction: column;
+  .calc_form select {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 12px;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  option {
+    background-color: #383838;
+    color: rgba(255, 255, 255, 0.6);
   }
 
   .calc_4 a {
     text-decoration: none;
     background-color: #e6533c;
-    padding: 0.7rem 0rem;
-    font-size: 0.78rem;
+    padding: 12px 0px;
+    font-size: 18px;
     border-radius: 1.82rem;
     display: inline-block;
     width: 60%;
@@ -768,6 +757,13 @@
     position: relative;
     background-color: rgb(0 0 0 / 34%);
     background-blend-mode: overlay;
+  }
+
+  .team_item_2 h3{
+    width: 215px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .team_gallery h3 {

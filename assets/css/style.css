@@ -1,6 +1,6 @@
 @font-face {
   font-family: Inter;
-  src: url(./../fonts/Inter-VariableFont_slnt,wght.ttf);
+  src: url(./../fonts/Inter-VariableFont_slntwght.ttf);
 }
 @font-face {
   font-family: Miama;
@@ -346,7 +346,7 @@
 .gallery_2 p {
   width: 60%;
   font-weight: 600;
-  font-size: .61rem;
+  font-size: 0.61rem;
 }
 
 .gallery_1 .img_box_1 {
@@ -531,6 +531,7 @@
 .bmi_calc {
   width: 50%;
 }
+
 .calc_form {
   padding: 1.25rem 0rem 0rem;
 }
@@ -541,61 +542,49 @@
   line-height: 1.1rem;
 }
 
-.calc_form input {
-  display: block;
-  padding: 0.6rem;
-  margin: 0.3rem 0rem;
+
+
+.calc_form input,
+.calc_form select {
+  padding: 12px;
   border-radius: 0.5rem;
   background: rgba(255, 255, 255, 0.1);
   border: none;
 }
 
-.bmi_calc input::placeholder {
-  font-size: 0.65rem;
-  color: rgba(255, 255, 255, 0.6);
+.calc_form select {
+  width: 50%;
 }
 
-.calc_2 input {
-  display: block;
-  padding: 0.6rem;
-  margin: 0.3rem 0rem;
-  border-radius: 0.5rem;
-  background: rgba(255, 255, 255, 0.1);
-  border: none;
-}
-
-.calc_2 select {
-  color: rgba(255, 255, 255, 0.6);
-  width: calc(100% - 1.2rem);
-  padding: 0.6rem;
-  margin: 0.3rem 0rem;
-  border-radius: 0.5rem;
-  background-color: #373737;
-  border: none;
-}
-
-.calc_2 input::placeholder {
-  font-size: 0.65rem;
-  color: rgba(255, 255, 255, 0.6);
+.calc_3 .factor {
+  width: 100%;
 }
 
 .calc_1,
 .calc_2 {
   display: flex;
-  gap: 15px;
+  gap: 12px;
+  justify-content: space-between;
+  margin-bottom: 12px;
 }
 
-.calc_3 input {
-  width: calc(100% - 1.2rem);
+
+.calc_form input::placeholder {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
 }
 
-.calc_1 input {
-  width: calc(100% - 1.2rem);
+.calc_form select {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 12px;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.1);
 }
 
-.calc_form {
-  display: flex;
-  flex-direction: column;
+option {
+  background-color: #383838;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .calc_4 a {
@@ -793,7 +782,7 @@
 
 .menu_1 p {
   font-size: 1rem;
-  margin: 0rem 0rem .9rem;
+  margin: 0rem 0rem 0.9rem;
 }
 
 .menu_2 h3 {
@@ -803,16 +792,16 @@
 
 .menu_2 p {
   font-size: 1rem;
-  margin: 0rem 0rem .9rem;
+  margin: 0rem 0rem 0.9rem;
 }
 
 .footer_bottom hr {
-  border: 1px solid rgba(255, 255, 255, 0.10);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer_bottom p {
   text-align: center;
-  font-size: .9rem;
+  font-size: 0.9rem;
   margin-top: 1.55rem;
 }
 
