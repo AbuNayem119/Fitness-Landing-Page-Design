@@ -610,7 +610,7 @@
 
 .calc_form input,
 .calc_form select {
-  padding: 12px;
+  padding: 12px 18px;
   border-radius: 0.5rem;
   background: rgba(255, 255, 255, 0.1);
   border: none;
